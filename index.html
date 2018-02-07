@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="UTF-8">
+    <title>Mondrian Creator</title>
+
+
+    
+    
+  </head>
+
+  <body> 
+
+
+  <div id="header">
+    
+        <div id="nav">
+          <ul onClick="loop()">
+        
+            <h1>Click Here to Create a Mondrian</h1>
+
+          </ul>
+        </div>
+
+  </div>
+
+
+  
+
+  <div id="dials">
+
+      <div id="depth">
+        <p> Maximum Depth </p>
+          <input type="text" value="4" class="depthDial" data-min="0" data-max="7" data-fgColor="#FFDD0A" data-linecap=round data-bgColor="#FCFCFC">
+      </div>
+
+      <div id="chance">
+        <p> Chance of Splitting </p>
+          <input type="text" value="45" class="chanceDial" data-min="0" data-max="100" data-fgColor="#DF1D0C" data-linecap=round data-bgColor="#FCFCFC">
+      </div>
+
+      <div id="width">
+        <p> Width of Split Line </p>
+          <input type="text" value="2" class="widthDial" data-min="1" data-max="7" data-fgColor="#08388A" data-linecap=round data-bgColor="#FCFCFC">
+      </div>
+
+  </div>
+
+  <div id='mondrian'></div>
+
+  <div id='saveNote'>
+      <p><font size="3px"><b>Hint: right click on the image and select 'Save image as...' to save!</b></font></p>
+
+      <p><font color="#FFDD00" size="6px" weight="bolder"> Maximum Depth: </font> the maximum depth that the program will draw squares within squares. For example a maximum depth of 5 means that it is possible to have a square within a square within a square... up to five times.</p>
+
+       <p><font color="#DF0C1D" size="6px" weight="bolder"> Chance of Splitting: </font> the chance out of 100 that any given square will be split into four. For example, setting the chance to 0 will just draw one big square, and setting the chance to 100 will split wherever possible</p>
+
+       <p id='margin'><font color="#08388A" size="6px" weight="bolder"> Width of Split Line: </font> the width of the black lines which divide up the image. I would recommend using a smaller width but you are free to experiment with it anyway you like.</p>  
+  </div>
+
+  </body>
+
+    <script src="libraries/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+    <script src="libraries/jquery.knob.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="knob.js" type="text/javascript"></script>
+</html>

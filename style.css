@@ -1,0 +1,139 @@
+body {
+	font-family: 'Indie Flower', cursive;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+    background-color: #F5F5F5;
+}
+
+#mondrian {
+	position: relative;
+	top: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+	height: 680px;
+	width: 920px;
+	float: middle;
+}
+
+#saveNote {
+	position: relative;
+	top: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 680px;
+	width: 920px;
+	float: middle;
+	font-size: 20px;
+}
+
+#margin {
+	margin-bottom: 80px;
+}
+
+#dials {
+	position: relative;
+	top: 100px;
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+	float: middle;
+	vertical-align: top;
+}
+
+#dials #depth {
+	position: absolute;
+	left: 50px;
+	right: 0;
+	width: 200px;
+	height: 250px;
+	vertical-align: bottom;
+}
+
+#dials #depth p {
+	margin: 0px;
+	color: #FFDD00;
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+#dials #chance {
+	
+	position: absolute;
+	left: 360px;
+	right: 0;
+	width: 200px;
+	height: 250px;
+	vertical-align: bottom;
+}
+
+#dials #chance p {
+	margin: 0px;
+	color: #DF0C1D;
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+#dials #width {
+	position: absolute;
+	left: 660px;
+	right: 0;
+	width: 200px;
+	height: 250px;
+	vertical-align: bottom;
+}
+
+#dials #width p {
+	margin: 0px;
+	color: #08388A;
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+#header {
+	z-index: 5;
+	width: 100%;
+    height: 50px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#nav {
+	float: middle;
+	margin-right: 0px;
+}
+
+#nav ul {
+	list-style: none;
+	float: left;
+	margin:0 auto;
+	width: 100%;
+	height: 50px;
+	background-color: #08388A;
+	position: relative;
+	line-height: 45px;
+	box-shadow: 0 6px 3px -6px black;
+    box-shadow: 0 6px 3px -6px black;
+    box-shadow: 0 6px 3px -6px black;
+    min-width:800px;
+    opacity: 0.95;
+}
+
+#nav ul:hover {
+	background: #DF0C1D;
+}
+
+#nav h1 {
+	text-align: middle;
+	margin:0 auto;
+	margin-top: 3px;
+	width: 500px;
+	font-size: 35px;
+	color: #FFDD00;
+}
